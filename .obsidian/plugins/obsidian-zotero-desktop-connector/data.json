@@ -1,0 +1,45 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Inbox/",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Full Citation",
+      "format": "template"
+    },
+    {
+      "name": "Cite",
+      "format": "template",
+      "template": "{{citekey}}"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Zotero Annotations",
+      "outputPathTemplate": "Zotero Analysis/{{citekey}}.md",
+      "imageOutputPathTemplate": "Media/zotero/{{citekey}}/",
+      "imageBaseNameTemplate": "{{citekey}}",
+      "templatePath": "Templates/Zotero Annotations.md"
+    },
+    {
+      "name": "Annotation Analysis",
+      "outputPathTemplate": "Paper Analysis/{{citekey}}.md",
+      "imageOutputPathTemplate": "Media/zotero/{{citekey}}/",
+      "imageBaseNameTemplate": "{{citekey}}",
+      "templatePath": "Templates/Annotation Analysis.md"
+    },
+    {
+      "name": "Import Paper",
+      "outputPathTemplate": "Inbox/{{citekey}}.md",
+      "imageOutputPathTemplate": "Media/zotero/{{citekey}}/",
+      "imageBaseNameTemplate": "{{citekey}}",
+      "templatePath": "Templates/paper.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "shouldConcat": true
+}
