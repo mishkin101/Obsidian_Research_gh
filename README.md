@@ -1,2 +1,2 @@
 # Obsidian + Zotero Integration 
-Obsidian + Zotero Integration with custom templates for importing annotations and hashtags. Templates dyanmically generate dataview queries for Tag groups imported from Zotero Annotations.
+Obsidian + Zotero Integration with custom templates made with Nunjucks for importing annotations and hashtags. Templates dynamically generate Dataview queries for Tag groups imported from Zotero Annotations.
